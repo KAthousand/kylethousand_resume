@@ -1,6 +1,6 @@
 {
   "name": "kylethousand_resume",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "View Kyle Thousand's resume",
   "homepage": "https://kylethousand.com",
   "repository": {
@@ -16,6 +16,6 @@
   "author": "KAthousand",
   "license": "ISC",
   "bin": {
-    "kylethousand_resume": "node ./index.js"
+    "kylethousand_resume": "./index.js"
   }
 }

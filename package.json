@@ -1,12 +1,20 @@
 {
   "name": "kylethousand_resume",
-  "version": "0.0.1",
-  "description": "View my resume",
+  "version": "1.0.0",
+  "description": "View Kyle Thousand's resume",
+  "homepage": "https://kylethousand.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KAthousand/kylethousand_resume"
+  },
   "main": "index.js",
     "type":"module",
   "scripts": {
     "read": "node index.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "KAthousand",
+  "license": "ISC",
+  "bin": {
+    "kylethousand_resume": "./index.js"
+  }
 }

@@ -1,11 +1,12 @@
-import fs from 'fs'
+#! /usr/bin/env node
 
-const data = fs.readFileSync( "./kylethousand_resume.json",
-  {encoding: "utf8", flag: "r"}, (err, data) => { 
-    if ( err )
-      console.log( err )
-    else ( data )
-      return data
+const fs = require('fs')
+
+fs.readFile(__dirname + '/kylethousand_resume.json', 'utf8',
+  (err, data) => { 
+    if (err)
+      console.log(err)
+    else (data)
+    console.log(data)
+    return data
   })
-
-console.log(data)

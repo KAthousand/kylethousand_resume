@@ -1,6 +1,6 @@
 {
   "name": "kylethousand_resume",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "View Kyle Thousand's resume",
   "homepage": "https://kylethousand.com",
   "repository": {
@@ -8,7 +8,6 @@
     "url": "https://github.com/KAthousand/kylethousand_resume"
   },
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "preread":"node index.js",
     "read": "node index.js"

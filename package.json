@@ -8,13 +8,14 @@
     "url": "https://github.com/KAthousand/kylethousand_resume"
   },
   "main": "index.js",
-    "type":"module",
+  "type": "module",
   "scripts": {
+    "preread":"node index.js",
     "read": "node index.js"
   },
   "author": "KAthousand",
   "license": "ISC",
   "bin": {
-    "kylethousand_resume": "./index.js"
+    "kylethousand_resume": "node ./index.js"
   }
 }

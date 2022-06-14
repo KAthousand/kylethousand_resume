@@ -8,11 +8,4 @@ const data = fs.readFileSync( "./kylethousand_resume.json",
       return data
   })
 
-fs.writeFile( "kylethousand_resume.json", data, "utf8", ( err ) => {
-    if (err) {
-      console.log( error )
-    } else {
-      console.log( fs.readFileSync( "kylethousand_resume.json", "utf-8" ) );
-    }
-  }
-);
+console.log(data)

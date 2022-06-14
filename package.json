@@ -1,0 +1,12 @@
+{
+  "name": "kylethousand_resume",
+  "version": "0.0.1",
+  "description": "View my resume",
+  "main": "index.js",
+    "type":"module",
+  "scripts": {
+    "read": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
